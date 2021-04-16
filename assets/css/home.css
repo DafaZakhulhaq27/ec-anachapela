@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    /* max-height: 100vh; */
+    background-image: url("../images/img8.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Botanica;
+    src: url(../fonts/Botanica.otf);
+}
+
+@font-face {
+    font-family: Evangelina;
+    src: url(../fonts/Evangelina.otf);
+}
+
+.text-lets {
+    font-family: Evangelina;
+    font-size: 130px;
+    padding: 2% 5%;
+}
+
+.text-designer {
+    font-family: Botanica;
+    font-size: 40px;
+    padding-left: 22%;
+    margin-top: -50px;
+}
+
+.text-art {
+    font-family: Evangelina;
+    padding-left: 16%;
+    font-size: 320px;
+    position: absolute;
+    margin-top: -270px;
+    color: #b7c0a7;
+    z-index: -1;
+}
