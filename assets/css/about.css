@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    background-color: #ddd6d1;
+}
+
+@font-face {
+    font-family: Botanica;
+    src: url(../fonts/Botanica.otf);
+}
+
+@font-face {
+    font-family: Evangelina;
+    src: url(../fonts/Evangelina.otf);
+}
+
+.img-about {
+    width: 400px;
+    height: 570px;
+}
+
+.text-about {
+    font-size: 245px;
+    color: #b7c0a7;
+    line-height: 1;
+    font-family: Evangelina;
+    padding: 0% 4%;
+}
+
+.mt-about {
+    margin-top: -20px;
+}
+
+.botanica {
+    font-family: Botanica;
+}
+
+.evangelina {
+    font-family: Evangelina;
+}
+
+.text-designer {
+    position: absolute;
+    font-size: 32px;
+    top: 0;
+    padding-left: 15%;
+}
+
+.text-graphic {
+    font-family: Botanica;
+    font-size: 25px;
+    line-height: 1;
+    padding: 0% 4%;
+    margin-top: -20px;
+}
+
+.text-iam {
+    font-family: Evangelina;
+    font-size: 18px;
+    padding: 0% 4%;
+    margin-top: 0px;
+}
