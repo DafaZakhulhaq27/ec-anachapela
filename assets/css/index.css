@@ -2,24 +2,29 @@
     font-family: Botanica;
     src: url(../fonts/Botanica.otf);
 }
+
 @font-face {
     font-family: Evangelina;
     src: url(../fonts/Evangelina.otf);
 }
 
-body{
-    font-family:Botanica;
+body {
+    font-family: Botanica;
     color: #0D0D0D;
     background-color: #DDD6D1;
 }
-main{
-    padding-top: 120px;
+
+main {
+    padding-top: 130px;
 }
 
+
 /* navbar */
-.navbar{
+
+.navbar {
     background-color: #DDD6D1;
 }
+
 .navbar a {
     color: #0D0D0D !important;
     text-decoration: none;
@@ -27,34 +32,41 @@ main{
     transition: .5s;
     font-family: Evangelina;
 }
-.navbar .link-active{
+
+.navbar .link-active {
     color: #BFB99E !important;
 }
+
 .navbar a:hover {
     color: #BFB99E !important;
 }
 
+
 /* contact me */
 
-.contact-me{
+.contact-me {
     margin-top: 20vh;
 }
-.contact-me h1{
+
+.contact-me h1 {
     font-family: Evangelina;
     font-size: 120px;
 }
-.contact-me h1{
+
+.contact-me h1 {
     margin-right: 15vh;
     font-family: Evangelina;
 }
-.contact-me p{
+
+.contact-me p {
     font-family: Evangelina;
 }
-.contact-me p span{
+
+.contact-me p span {
     font-weight: bold;
 }
 
-.lets-connect{
+.lets-connect {
     z-index: -1;
     position: absolute;
     top: 50%;
@@ -64,21 +76,26 @@ main{
     color: #B7C1A7;
 }
 
+
 /* illustrations */
-.illustrations h1{
+
+.illustrations h1 {
     font-size: 48px;
 }
-.illustrations h1 span{
+
+.illustrations h1 span {
     font-family: Evangelina;
 }
-.img-container{
+
+.img-container {
     height: 700px;
     object-fit: cover;
     width: 30%;
 }
+
 @media only screen and (max-width: 768px) {
-    .img-container{
+    .img-container {
         margin-top: 5vh;
         width: 100%;
     }
-}   
+}
